@@ -26,7 +26,7 @@ manifest.json should be.
 ```
 
 ## How to add updates
-Now that this is setup, refer to `pupdates help` for how to add new updates. Afterwards, make sure the update the data/prusias_pUpdates_<your Script Name here>.txt file on github.
+Now that this is setup, refer to `pupdates help` for how to add new updates. Afterwards, **make sure to update **the data/prusias_pUpdates_<your Script Name here>.txt file on github.
 
 ## How to show the user updates
 Wherever in your script you would like to ping the user with new updates (when they happen), do a cli execute call to `ploop check <scriptname>`. This will only print stuff if new updates are detected. Great way to educate users on new features!

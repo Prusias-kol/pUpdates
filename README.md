@@ -9,14 +9,14 @@ git checkout https://github.com/Prusias-kol/pUpdates main
 ## How to setup
 Run `pupdates help` for guidance on how to setup the file data. Make sure the scriptname u pick is consistently used.
 
-Next, make sure the data/prusias_pUpdates_<your Script Name here>.txt file is added to your git repo
+Next, make sure the data/pUpdates/prusias_pUpdates_<your Script Name here>.txt file is added to your git repo
 
 Your folder structure should look like this on github:  
 - manifest.json - described below
 - kolmafia/dependencies.txt - copied from this repo
 - kolmafia/scripts/<your script here> - all of your script files go here
 - kolmafia/data/<your data here> - all of your data files go here
-- kolmafia/data/prusias_pUpdates_<your Script Name here>.txt - file you found above
+- kolmafia/data/pUpdates/prusias_pUpdates_<your Script Name here>.txt - file you found above
 
 manifest.json should be.   
 ```

@@ -1,6 +1,10 @@
 # pUpdates
 Library for Script Updates
 
+## Checkout
+```
+git checkout https://github.com/Prusias-kol/pUpdates main
+```
 
 ## How to setup
 Run `pupdates help` for guidance on how to setup the file data. Make sure the scriptname u pick is consistently used.

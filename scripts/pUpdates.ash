@@ -16,7 +16,7 @@ void printHelp(){
     print_html("<b>init (scriptname)</b> - Initializes pUpdates to work with a script. Must be run before any other functions will work.");
     print("scriptname must have no spaces", "red");
     print_html("<b>add (scriptname) (update)</b> - Adds update to scriptname. Update can include spaces");
-    print_html("<b>check</b> - Lists new updates if there are new updates.");
+    print_html("<b>check (scriptname)</b> - Lists new updates if there are new updates for specified script.");
     print("Will not print anything if there are no new updates.");
     
 }

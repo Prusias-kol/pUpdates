@@ -107,7 +107,7 @@ void pCheckUpdate(string script) {
         print_html("<font color=eda800><b>----" + script + "'s latest updates----</b></font>");
         int lastUpdated = get_property(property).to_int();
         for i from (lastUpdated+1) to (version) {
-            print_html(i + " <font color=eda800>-</font> " + updates[i]);
+            print_html(i + " - " + updates[i]);
         }
         print_html("<font color=eda800>---------------</font>");
         set_property(property, version);
